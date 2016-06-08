@@ -1,7 +1,7 @@
 #!/bin/bash
 #Copy all libraries
 TEST_CLASSPATH=
-for i in testlibs/WEB-INF/lib/*
+for i in testlibs/WEB-INF/libs/*
 do
  if [ "$TEST_CLASSPATH" = "" ] ; then
    TEST_CLASSPATH=$i
